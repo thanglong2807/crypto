@@ -1,44 +1,44 @@
 const browse =[
     {
-        icon: './images/icon/Photo & Icon1.svg',
+        icon: './images/icon/PhotoIcon1.svg',
         name: 'Art',
-        img: '../images/img/PhotoIcon.png'
+        img: './images/img/PhotoIcon.png'
     },
     {
-        icon: './images/icon/Photo & Icon2.svg',
+        icon: './images/icon/PhotoIcon2.svg',
         name: 'Collectibles',
-        img: '../images/img/PhotoIcon2.png'
+        img: './images/img/PhotoIcon2.png'
     },
   
     {
-        icon: './images/icon/Photo & Icon3.svg',
+        icon: './images/icon/PhotoIcon3.svg',
         name: 'Music',
-        img: '../images/img/PhotoIcon3.png'
+        img: './images/img/PhotoIcon3.png'
     },
     {
-        icon: './images/icon/Photo & Icon4.svg',
+        icon: './images/icon/PhotoIcon4.svg',
         name: 'Photography',
-        img: '../images/img/PhotoIcon4.png'
+        img: './images/img/PhotoIcon4.png'
     },
     {
-        icon: './images/icon/Photo & Icon5.svg',
+        icon: './images/icon/PhotoIcon5.svg',
         name: 'Video',
-        img: '../images/img/PhotoIcon5.png'
+        img: './images/img/PhotoIcon5.png'
     },
     {
-        icon: './images/icon/Photo & Icon6.svg',
+        icon: './images/icon/PhotoIcon6.svg',
         name: 'Utility',
-        img: '../images/img/PhotoIcon6.png'
+        img: './images/img/PhotoIcon6.png'
     },
     {
-        icon: './images/icon/Photo & Icon7.svg',
+        icon: './images/icon/PhotoIcon7.svg',
         name: 'Sport',
-        img: '../images/img/PhotoIcon7.png'
+        img: './images/img/PhotoIcon7.png'
     },
     {
-        icon: './images/icon/Photo & Icon8.svg',
+        icon: './images/icon/PhotoIcon8.svg',
         name: 'Virtual Worlds',
-        img: '../images/img/PhotoIcon8.png'
+        img: './images/img/PhotoIcon8.png'
     },
 ]
 const newBrwse = browse.map((item)=>{
