@@ -78,16 +78,18 @@ const creators = [
     const creatorsToDisplay = screenWidth >= 1200 ? creators : creators.slice(0, screenWidth >= 834 ? 6 : 5);
     
     const newCreators = creatorsToDisplay.map((item) => {
-      return `<div class="creators__link">
-        <span class="creators__link-id">${item.id}</span>
-        <img class="creators__link-avatar" src="images/img/${item.img}" alt="">
-        <div class="creators__link-info">
-          <h3 class="creators__link-name">${item.name}</h3>
-          <p class="creators__link-price">
-            Total Sales:
-            <span>${item.price}</span>
-          </p>
-        </div>
+      return `<div class="creators__link--width">
+       <a class="creators__link" href='./ArtistPage.html'>
+          <span class="creators__link-id">${item.id}</span>
+          <img class="creators__link-avatar" src="images/img/${item.img}" alt="">
+          <div class="creators__link-info">
+            <h3 class="creators__link-name">${item.name}</h3>
+            <p class="creators__link-price">
+              Total Sales:
+              <span>${item.price}</span>
+            </p>
+          </div>
+       </a>
       </div>`;
     });
    return $('.creators__list').html(newCreators.join(''))

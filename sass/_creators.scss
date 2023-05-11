@@ -28,9 +28,11 @@
         display: flex;
         flex-wrap: wrap;
         gap: 30px;
+        .creators__link--width{
 
-        .creators__link {
             width: calc((100% - 90px) / 4);
+        }
+        .creators__link {
             background: #3B3B3B;
             border-radius: 20px;
             position: relative;
@@ -116,9 +118,11 @@
             display: flex;
             flex-wrap: wrap;
             gap: 30px;
+            .creators__link--width{
 
-            .creators__link {
                 width: calc((100% - 30px) / 2);
+            }
+            .creators__link {
                 background: #3B3B3B;
                 border-radius: 20px;
                 position: relative;
@@ -214,9 +218,11 @@
             display: flex;
             flex-wrap: wrap;
             gap: 30px;
-
-            .creators__link {
+            .creators__link--width{
                 width: 100%;
+
+            }
+            .creators__link {
                 background: #3B3B3B;
                 border-radius: 20px;
                 position: relative;
