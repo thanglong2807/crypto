@@ -48,7 +48,7 @@
     .header-list {
 
 
-        display: flex;
+        display: none;
         flex-direction: column;
         gap: 10px;
         align-items: center;
@@ -80,5 +80,8 @@
             line-height: 140%;
             margin: 10px auto 0;
         }
+    }
+    .active_header{
+        display: flex;
     }
 }

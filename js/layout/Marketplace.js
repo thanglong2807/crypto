@@ -106,7 +106,7 @@ const myMap = (arr) => {
             <div class="discovermore__item">
             <a href='' style='display: flex;
             flex-direction: column;'>
-                <img loading="lazy" class="discovermore__item-img" src="images/img/Marketplace/img/${item.image}" loading="lazy" alt=">${item.name}">
+                <img loading="lazy" class="discovermore__item-img" src="images/img/Marketplace/img/${item.image}"  alt=">${item.name}">
                 <div class="discovermore__item-botton">
                     <h3 class="discovermore__item-name--img">${item.name}</h3>
                     <div class="discovermore__item-info">

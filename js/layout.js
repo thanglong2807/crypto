@@ -3,10 +3,10 @@ $(".header").html(`
                 <div class="header-content">
                 <h1>
                 <a href="./index.html">
-                    <img loading="lazy" class="header-logo" src="./images/icon/logo.svg" alt="logo">
+                    <img  class="header-logo" src="./images/icon/logo.svg" alt="logo">
                 </a>
                 </h1>
-                <img loading="lazy" id="check-navbar" class="header_nav" src="images/icon/nav-menu.svg" alt="">
+                <img  id="check-navbar" class="header_nav" src="images/icon/nav-menu.svg" alt="">
                 <div id='active' ">
                     <div class="header-list" >
                     <ul class="header-nav">
@@ -21,7 +21,7 @@ $(".header").html(`
                         </li>
                     </ul>
                     <a href="./CreateAccount.html" class="header-btn btn">
-                        <img loading="lazy" class="header-btn-logo" src="./images/icon/User.svg" alt="Sign Up">
+                        <img  class="header-btn-logo" src="./images/icon/User.svg" alt="Sign Up">
                         <span class="header-btn-text">Sign Up</span>
                     </a>
                     </div>

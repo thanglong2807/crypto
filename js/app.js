@@ -1,21 +1,11 @@
 $(document).ready(function () {
-    
+
     $('#check-navbar').on('click', function () {
         
-        $('#active').toggle();
+        $('.header-list').toggleClass("active_header");
     });
-    $('#active').css('display', 'none');
-    const active = ()=>{
-        if (window.innerWidth > 857) {
-         return   $('#active').show()
-        }else{
-          return  $('#active').hide()
-    
-        }
-    }
 
     
-    setInterval(active, 0)
     ////////////////////////////////
     function updateClock() {
         var now = new Date(); // Lấy giờ hiện tại
