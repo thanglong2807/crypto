@@ -1,0 +1,85 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li
+{
+  margin: 0;
+  padding: 0;
+}
+button{
+  cursor: pointer;
+}
+
+
+/* Remove list styles */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Remove hyperlink styles */
+a {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+}
+
+/* Remove default form styles */
+button,
+input,
+select,
+textarea {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* Set default font family and size */
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  background: #2B2B2B;
+  color: #FFFFFF;
+}
+
+/* Set default line height */
+body,
+button,
+input,
+select,
+textarea {
+  line-height: 1.5;
+}
+
+/* Remove default table border */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Remove default table padding */
+td,
+th {
+  padding: 0;
+}
+
+

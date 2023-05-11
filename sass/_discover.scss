@@ -1,0 +1,313 @@
+.discover {
+    padding: 80px 0;
+
+    .discover-content {
+        display: flex;
+        gap: 30px;
+
+    }
+}
+
+.discover-left {
+    width: calc((100% - 15px) / 2);
+
+    .discover-title {
+        font-weight: 600;
+        font-size: 67px;
+        line-height: 110%;
+        /* or 74px */
+
+        display: flex;
+        align-items: center;
+        text-transform: capitalize;
+    }
+
+    .discover-des {
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 160%;
+        /* or 35px */
+
+        text-transform: capitalize;
+        margin: 20px 0 30px;
+
+    }
+
+    .discover-btn {
+        padding: 19px 50px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 140%;
+        /* or 22px */
+
+        text-align: center;
+    }
+
+    .discover-list {
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 30px;
+
+        .discover-list-item-title {
+            font-weight: 700;
+            font-size: 28px;
+            line-height: 140%;
+            /* or 39px */
+
+            display: flex;
+            align-items: center;
+            text-transform: capitalize;
+        }
+
+        .discover-list-item-des {
+            font-weight: 400;
+            font-size: 23.99px;
+            line-height: 160%;
+            /* or 38px */
+
+            text-transform: capitalize;
+        }
+    }
+}
+
+.discover-right {
+    width: calc((100% - 15px) / 2);
+
+    display: flex;
+    flex-direction: column;
+
+    img {
+        width: 100%;
+    }
+
+    .discover-walking {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+
+        align-items: flex-start;
+        gap: 10px;
+        background: #3B3B3B;
+        border-radius: 0px 0px 20px 20px;
+
+
+        .discover-walking-title {
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 140%;
+
+        }
+
+        .discover-walking-info {
+            display: flex;
+            gap: 12px;
+
+            .discover-walking-icon {
+                width: 24px;
+                height: 24px;
+            }
+
+            .discover-walking-info-title {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 140%;
+            }
+        }
+    }
+
+}
+
+@media (max-width:1100px) {
+    .discover {
+        .discover-content {}
+    }
+
+    .discover-left {
+        width: calc((100% - 15px) / 2);
+
+        .discover-title {
+            @include big-text-tablet;
+        }
+
+        .discover-des {
+            @include medium-text-tablet;
+
+        }
+
+        .discover-btn {
+
+            font-weight: 600;
+            @include medium-text-tablet;
+        }
+
+        .discover-list {
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 30px;
+
+            .discover-list-item-title {
+                @include medium-text-tablet;
+                font-weight: 700;
+            }
+
+            .discover-list-item-des {
+                @include medium-text-tablet;
+            }
+        }
+    }
+
+    .discover-right {
+        width: calc((100% - 15px) / 2);
+
+        display: flex;
+        flex-direction: column;
+
+        img {
+            width: 100%;
+        }
+
+        .discover-walking {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+
+            align-items: flex-start;
+            gap: 10px;
+            background: #3B3B3B;
+            border-radius: 0px 0px 20px 20px;
+
+
+            .discover-walking-title {
+                @include medium-text-tablet
+            }
+
+            .discover-walking-info {
+                display: flex;
+                gap: 12px;
+
+                .discover-walking-icon {
+                    width: 24px;
+                    height: 24px;
+                }
+
+                .discover-walking-info-title {
+                    @include small-text-tablet
+                }
+            }
+        }
+
+    }
+}
+
+@media (max-width: 600px) {
+
+    .discover {
+        padding: 40px 0;
+
+        .discover-content {
+            flex-direction: column;
+            align-items: center;
+            gap: 0;
+            position: relative;
+            padding-bottom: 110px;
+        }
+    }
+
+    .discover_item {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .discover-left {
+        width: 100%;
+
+        .discover-title {
+            @include big-text-mobile;
+        }
+
+        .discover-des {
+            margin: 10px 0 0;
+            @include medium-text-mobile;
+
+        }
+
+
+    }
+
+    .discover-center {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+        .discover-btn {
+            padding: 19px 0;
+            font-weight: 600;
+            @include medium-text-mobile;
+            width: 100%;
+        }
+
+        .discover-list {
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 30px;
+
+            .discover-list-item-title {
+                @include medium-text-mobile;
+                font-weight: 700;
+            }
+
+            .discover-list-item-des {
+                @include medium-text-mobile;
+            }
+        }
+    }
+
+    .discover-right {
+        width: 100%;
+        margin: 40px 0;
+        display: flex;
+        flex-direction: column;
+
+        img {
+            width: 100%;
+        }
+
+        .discover-walking {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+
+            align-items: flex-start;
+            gap: 10px;
+            background: #3B3B3B;
+            border-radius: 0px 0px 20px 20px;
+
+
+            .discover-walking-title {
+                @include medium-text-mobile
+            }
+
+            .discover-walking-info {
+                display: flex;
+                gap: 12px;
+
+                .discover-walking-icon {
+                    width: 24px;
+                    height: 24px;
+                }
+
+                .discover-walking-info-title {
+                    @include medium-text-mobile
+                }
+            }
+        }
+
+    }
+}

@@ -1,0 +1,138 @@
+// text PC
+@mixin big-text {
+    font-weight: 600;
+    font-size: 67px;
+    line-height: 110%;
+
+
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+
+
+
+    color: #FFFFFF;
+}
+
+@mixin medium-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+
+
+    text-transform: capitalize;
+
+
+
+    color: #FFFFFF;
+
+}
+
+@mixin smail-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+// text máy tính bảng
+@mixin big-text-tablet {
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 120%;
+}
+
+@mixin medium-text-tablet {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+
+}
+
+@mixin small-text-tablet {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+
+    color: #FFFFFF;
+
+
+
+}
+
+// text mobile
+@mixin big-text-mobile {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 140%;
+}
+
+@mixin medium-text-mobile {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+
+}
+
+@mixin title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 120%;
+    /* identical to box height, or 46px */
+
+    text-transform: capitalize;
+
+    /* White */
+
+    color: #FFFFFF;
+}
+
+@mixin description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+    /* or 35px */
+
+    text-transform: capitalize;
+
+    /* White */
+
+    color: #FFFFFF;
+
+}
+
+@mixin title-tablet {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 140%;
+}
+
+@mixin description-tablet {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+}
+@mixin title-mobile {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 140%;
+}
+
+@mixin description-mobile {
+    font-weight: 400 !important;
+    font-size: 16px;
+    line-height: 140%;
+}

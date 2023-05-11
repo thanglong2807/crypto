@@ -1,0 +1,200 @@
+.digest {
+    padding: 80px 0;
+
+    .digest-content {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 60px;
+        gap: 80px;
+        background: #3B3B3B;
+        border-radius: 20px;
+    }
+}
+
+.digest_imamge {
+    width: 425px;
+    height: 310px;
+
+    background: url(../images/img/Photo-Email.png) center center no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+
+}
+
+.digest_form {
+    flex: 1;
+}
+
+.digest_form--title {
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 120%;
+    /* or 46px */
+
+    text-transform: capitalize;
+
+    /* White */
+
+    color: #FFFFFF;
+    max-width: 425px;
+}
+
+.digest_form--des {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+    /* or 35px */
+
+    text-transform: capitalize;
+
+    /* White */
+
+    color: #FFFFFF;
+    margin: 10px 0 40px;
+}
+
+.digest_form--input {
+    background: #FFFFFF;
+    border-radius: 20px;
+    padding: 19px 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.digest_form--input-btn {
+    padding: 19px 50px;
+    position: absolute;
+    right: -2px;
+    top: 0;
+
+
+}
+
+@media (max-width: 1200px) {
+    .digest {
+        padding: 40px 0;
+
+        .digest-content {
+            padding: 40px 30px;
+            gap: 30px;
+        }
+    }
+
+    .digest_imamge {
+        width: 300px;
+        height: 280px;
+
+        background: url(../images/img/Photo-Email.png) center center no-repeat;
+        background-size: cover;
+        border-radius: 20px;
+
+    }
+
+    .digest_form--title {
+        font-weight: 600;
+        font-size: 28px;
+    }
+
+    .digest_form--des {
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+    .digest_form--input {
+        background: #ffffff00;
+        border-radius: 20px;
+        padding: 0;
+        position: relative;
+        overflow: none;
+        display: flex;
+        gap: 16px;
+        flex-direction: column;
+    }
+
+    .digest_form-input {
+        background: #ffffff00;
+        border-radius: 20px;
+        padding: 19px 20px;
+        background-color: #FFFFFF;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #2B2B2B;
+    }
+
+    .digest_form--input-btn {
+        padding: 19px 50px;
+        position: static;
+        right: -2px;
+        top: 0;
+
+
+    }
+}
+
+@media (max-width: 875px) {
+    .digest {
+        padding: 40px 0;
+        
+        .digest-content {
+            background: #3b3b3b00;
+            padding: 0;
+            gap: 30px;
+            flex-direction: column;
+        }
+    }
+
+    .digest_imamge {
+        width: 100%;
+        min-height: 180px;
+
+        background: url(../images/img/Photo-Email.png) center center no-repeat;
+        background-size: cover;
+        border-radius: 20px;
+
+    }
+
+    .digest_form--title {
+        font-weight: 600;
+        font-size: 28px;
+    }
+
+    .digest_form--des {
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+    .digest_form--input {
+        background: #ffffff00;
+        border-radius: 20px;
+        padding: 0;
+        position: relative;
+        overflow: none;
+        display: flex;
+        gap: 16px;
+        flex-direction: column;
+    }
+
+    .digest_form-input {
+        background: #ffffff00;
+        border-radius: 20px;
+        padding: 12px 20px;
+        background-color: #FFFFFF;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #2B2B2B;
+    }
+
+    .digest_form--input-btn {
+        padding: 12px 50px;
+        position: static;
+        right: -2px;
+        top: 0;
+
+
+    }
+}

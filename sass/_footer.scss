@@ -1,0 +1,159 @@
+.footer {
+    padding: 40px 0;
+    background: #3B3B3B;
+}
+
+.footer_line {
+    border: 1px solid #858584;
+    margin: 30px 0 20px;
+}
+
+.footer_top {
+    display: flex;
+    gap: 120px;
+    justify-content: space-between;
+    position: relative;
+
+    :first-child {
+        max-width: 238px;
+    }
+
+}
+
+.footer_top-title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 160%;
+    /* or 35px */
+
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+
+}
+
+.footer_top-lists {
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+
+}
+
+.footer_top-list {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    // max-width: 238px;
+    color: #CCCCCC;
+}
+
+.footer_botton {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 110%;
+    /* or 13px */
+
+
+    color: #CCCCCC;
+
+}
+
+.footer_top-icon {
+    display: flex;
+    gap: 10px;
+}
+
+.footer_form {
+    flex-grow: 1;
+}
+
+@media (max-width:1200px) {
+    .footer_top {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        justify-content: start;
+
+        :first-child {
+            max-width: none;
+        }
+    }
+
+    .footer_top-title {
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 160%;
+        /* or 35px */
+
+        text-transform: capitalize;
+
+        color: #FFFFFF;
+
+    }
+
+    .footer_top-lists {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        /* or 22px */
+
+
+        color: #CCCCCC;
+
+        margin-top: 20px;
+
+    }
+
+    .footer_forms {
+        max-width: 420px;
+        position: relative;
+
+        .btn {
+            position: absolute;
+        }
+    }
+
+    .footer_top-icon {
+        display: flex;
+        gap: 10px;
+    }
+
+    .footer_form {
+        flex-grow: 1;
+    }
+}
+
+@media (max-width:834px) {
+    .footer_forms {
+        max-width: 420px;
+        position: relative;
+        flex-direction: column;
+        align-items: center;
+        max-width: 100%;
+        align-items: stretch;
+
+        input {
+            padding: 12px 20px;
+        }
+
+        .btn {
+            padding: 12px 20px;
+
+            position: static;
+        }
+    }
+
+    .footer_top-icon {
+        display: flex;
+        gap: 10px;
+    }
+
+    .footer_form {
+        flex-grow: 1;
+    }
+}

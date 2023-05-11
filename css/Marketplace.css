@@ -1,0 +1,66 @@
+.browse_marketplace {
+  padding: 80px 0;
+}
+.browse_marketplace-title {
+  font-weight: 600;
+  font-size: 51px;
+  line-height: 110%;
+  /* or 56px */
+
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+
+  /* White */
+
+  color: #ffffff;
+}
+.browse_marketplace-des {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 160%;
+  /* or 35px */
+
+  /* White */
+  margin: 10px 0 30px;
+  color: #ffffff;
+}
+.browse_marketplace-form {
+  border: 1px solid #3b3b3b;
+  border-radius: 20px;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+}
+.browse_marketplace-input {
+  flex: 1;
+  padding: 18px 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+
+  /* Caption & Label Text */
+
+  color: #858584;
+}
+.discovermore__item-name--img{
+    color: #FFFFFF !important;
+    font-weight: 600 !important;
+    font-size: 22px !important;
+    line-height: 140% !important;
+    text-transform: capitalize !important;
+}
+.discovermore__item-name {
+  
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+}
+.browse_marketplace-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}

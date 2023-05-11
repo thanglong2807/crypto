@@ -1,0 +1,132 @@
+.background_page {
+  width: 100%;
+  min-height: 100vh;
+  background: url("../images/img/backgroundPage.png") no-repeat center center;
+  background-size: contain;
+}
+.orbitians {
+  padding: 40px 0;
+}
+.container {
+  position: relative;
+}
+.orbitians_title {
+  font-weight: 600;
+  font-size: 51px;
+  line-height: 110%;
+  /* or 56px */
+
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+
+  /* White */
+
+  color: #ffffff;
+}
+.orbitians_des {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 160%;
+  /* or 35px */
+
+  text-transform: capitalize;
+
+  /* Caption & Label Text */
+
+  color: #858584;
+}
+.orbitians_list {
+  margin-top: 30px;
+}
+.orbitians_list-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 160%;
+  /* or 35px */
+
+  text-transform: capitalize;
+
+  color: #858584;
+}
+.orbitians_list-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 140%;
+  /* identical to box height, or 31px */
+
+  text-transform: capitalize;
+
+  color: #ffffff;
+}
+.orbitians_list--des {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 160%;
+  /* or 35px */
+
+  /* White */
+
+  color: #ffffff;
+  max-width: 605px;
+}
+.orbitians_list--view {
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 160%;
+  /* or 35px */
+
+  /* White */
+
+  color: #ffffff;
+  gap: 10px;
+}
+.orbitians_list--btn {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.orbitians_list-btn {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+  background: #3b3b3b;
+  border-radius: 20px;
+  padding: 12px 30px;
+  cursor: pointer;
+}
+.orbitians-time {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.orbitians-time-btn {
+  background: #a259ff;
+  border-radius: 20px;
+  padding: 19px 80px;
+  margin-top: 30px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+
+  text-align: center;
+
+  color: #ffffff;
+}

@@ -1,0 +1,114 @@
+.browse {
+    padding: 80px 0;
+
+    .browse_title {
+        @include title;
+
+    }
+
+    .browse_list {
+        margin-top: 60px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        align-items: center;
+    }
+
+    .browse_item {
+        width: calc((100% - 90px) / 4);
+        border-radius: 20px;
+        overflow: hidden;
+    }
+
+    .browse_item-bg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 240px;
+        background: center center no-repeat rgba(255, 255, 255, 0.1);
+        background-size: cover;
+        backdrop-filter: rgba(255, 255, 255, 0.1);
+        position: relative;
+
+
+
+        &::after {
+            content: "";
+            position: absolute;
+            ;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            backdrop-filter: blur(7.5px);
+            background: rgba(255, 255, 255, 0.1);
+        }
+    }
+
+    .browse_item-icon {
+        position: relative;
+        z-index: 3;
+    }
+
+    .browse_name {
+        padding: 20px 30px 25px;
+        display: block;
+        @include medium-text;
+        background: #3B3B3B;
+        min-height: 87px;
+       
+
+    }
+}
+
+@media (max-width: 1200px) and (min-width: 834px) {
+    .browse {
+        padding: 40px 0;
+
+        .browse_title {
+            @include title-tablet;
+
+        }
+
+        .browse_list{
+            align-items: start;
+        }
+
+
+        .browse_name {
+            padding: 20px 30px 25px;
+            display: block;
+            @include medium-text-tablet;
+            background: #3B3B3B;
+        }
+    }
+
+}
+@media (max-width: 834px) {
+    .browse {
+        padding: 40px 0;
+
+        .browse_title {
+            @include title-tablet;
+
+        }
+
+        .browse_list{
+            align-items: start;
+        }
+
+
+        .browse_name {
+            padding: 20px 30px 25px;
+            display: block;
+            @include medium-text-tablet;
+            background: #3B3B3B;
+
+        }
+        .browse_item {
+            width: calc((100% - 30px) / 2);
+            border-radius: 20px;
+            overflow: hidden;
+        }
+    }
+
+}

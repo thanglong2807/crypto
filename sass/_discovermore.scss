@@ -1,0 +1,254 @@
+.discovermore {
+    padding: 80px 0;
+
+    .discovermore-content {}
+
+}
+
+.discovermore__title {
+    @include title;
+}
+
+.discovermore__des {
+    @include description;
+    position: relative;
+    margin: 20px 0 60px;
+
+    .discovermore__btn {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        border: 2px solid #A259FF;
+        border-radius: 20px;
+        background-color: #a159ff00;
+        padding: 20px 50px;
+
+    }
+}
+
+.discovermore__list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.discovermore__item {
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    width: calc((100% - 60px) / 3);
+}
+
+.discovermore__item-img {
+    width: 100%;
+}
+
+.discovermore__item-botton {
+    padding: 20px 30px;
+    background: #3B3B3B;
+    .discovermore__item-name--img {
+        @include medium-text;
+    }
+}
+
+.discovermore__item-info {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    @include smail-text;
+    margin: 5px 0 25px;
+
+    .discovermore__item-avatar {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+.discovermore__item-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.discovermore--price-item {
+    .discovermore--price-name {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 110%;
+        color: #858584;
+    }
+
+    .discovermore--price {
+        margin-top: 8px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #FFFFFF;
+    }
+    &:last-child{
+        text-align: end;
+    }
+}
+
+@media (max-width:1200px) and (min-width: 834px){
+    .discovermore {
+        padding: 40px 0;
+    }
+    
+    .discovermore__title {
+        @include title-tablet;
+    }
+    
+    .discovermore__des {
+        @include description-tablet;   
+        margin: 10px 0 40px;
+    }
+    
+    .discovermore__list {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+    
+    .discovermore__item {
+        width: calc((100% - 30px) / 2);
+        &:nth-child(3){
+            display: none !important;
+        }
+    }
+    
+  
+    
+    .discovermore__item-botton {
+      
+        .discovermore__item-name--img {
+            @include medium-text-tablet;
+        }
+    }
+    
+    .discovermore__item-info {
+        display: flex;
+        gap: 12px;
+        align-items: center;
+        @include medium-text;
+        margin: 5px 0 20px;
+    
+        .discovermore__item-avatar {
+            width: 24px;
+            height: 24px;
+        }
+    }
+    
+    .discovermore__item-price {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+    }
+    
+    .discovermore--price-item {
+        .discovermore--price-name {
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 110%;
+            color: #858584;
+        }
+    
+        .discovermore--price {
+            margin-top: 8px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 140%;
+            color: #FFFFFF;
+        }
+        &:last-child{
+            text-align: end;
+        }
+    }
+}
+
+@media (max-width:834px) {
+    .discovermore {
+        padding: 40px 0 150px;
+        position: relative;
+    }
+    
+    .discovermore__title {
+        @include title-mobile;
+    }
+    
+    .discovermore__des {
+        @include description-mobile;   
+        position: static;
+        .discovermore__btn {
+         bottom: 40px;
+      
+        transform: translate(-50%, 0);
+        }
+    }
+    
+    .discovermore__list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .discovermore__item {
+        width: 100% ;
+        &:nth-child(3){
+            display: flex !important;
+        }
+    }
+    
+  
+    
+    .discovermore__item-botton {
+      
+        .discovermore__item-name--img {
+            @include medium-text-tablet;
+        }
+    }
+    
+    .discovermore__item-info {
+        display: flex;
+        gap: 12px;
+        align-items: center;
+        @include medium-text;
+        margin: 5px 0 20px;
+    
+        .discovermore__item-avatar {
+            width: 24px;
+            height: 24px;
+        }
+    }
+    
+    .discovermore__item-price {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+    }
+    
+    .discovermore--price-item {
+        .discovermore--price-name {
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 110%;
+            color: #858584;
+        }
+    
+        .discovermore--price {
+            margin-top: 8px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 140%;
+            color: #FFFFFF;
+        }
+        &:last-child{
+            text-align: end;
+        }
+    }
+}
