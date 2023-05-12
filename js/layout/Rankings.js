@@ -97,7 +97,7 @@ const rankings=[
     },
     {
         id: 13,
-        avatar:'NFT_13.svg',
+        avatar:'NFT_13.svg ',
         name:'Lindsey Lipshutz',
         change:'+1.41%',
         sold:'602',
