@@ -1,54 +1,54 @@
 const artistPage = [
     {
-        image: '',
+        image: 'Image_discover1.png',
         name: 'Distant Galaxy',
         price: '1.63 ETH',
         HighestBid: '0.33 wETH',
     },
     {
-        image: '',
+        image: 'PhotoIcon5.png',
         name: 'Life On Edena',
         price: '1.63 ETH',
         HighestBid: '0.33 wETH',
     },
     {
-        image: '',
+        image: 'Image Placeholder (2).png',
         name: 'AstroFiction',
         price: '1.63 ETH',
         HighestBid: '0.33 wETH',
     },
     {
-        image: '',
+        image: 'Image Placeholder (3).png',
         name: 'CryptoCity',
         price: '1.63 ETH',
         HighestBid: '0.33 wETH',
     },
     {
-        image: '',
+        image: 'Image.png',
         name: 'ColorfulDog 0524',
         price: '1.63 ETH',
         HighestBid: '0.33 wETH',
     },
     {
-        image: '',
+        image: 'Image Placeholder (4).png',
         name: 'Space Tales',
         price: '1.63 ETH',
         HighestBid: '0.33 wETH',
     },
     {
-        image: '',
+        image: 'Image Placeholder (5).png',
         name: 'Cherry Blossom Girl 037',
         price: '1.63 ETH',
         HighestBid: '0.33 wETH',
     },
     {
-        image: '',
+        image: 'Image (1).png',
         name: 'Dancing Robots 0987',
         price: '1.63 ETH',
         HighestBid: '0.33 wETH',
     },
     {
-        image: '',
+        image: 'Image (2).png',
         name: 'IceCream Ape ',
         price: '1.63 ETH',
         HighestBid: '0.33 wETH',
@@ -61,7 +61,7 @@ const newArtistPage = artistPage.map(item => {
     <div class="discovermore__item">
     <a href='' style='display: flex;
     flex-direction: column;'>
-        <img   class="discovermore__item-img" src="images/img/Image_discover1.png" alt="">
+        <img   class="discovermore__item-img" src="images/img/${item.image}" alt="">
         <div class="discovermore__item-botton">
             <h3 class="discovermore__item-name--img">${item.name}</h3>
             <div class="discovermore__item-info">
