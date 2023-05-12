@@ -76,7 +76,8 @@
   }
   .active_header {
     display: flex;
-    animation: fadeIn 0.5s ease-in-out;
+    z-index: 1;
+    animation: fadeIn 0.1s ease-in-out;
   }
 }
 .discover {
@@ -279,7 +280,7 @@
     line-height: 140%;
   }
   .discover-left .discover-des {
-    margin: 10px 0 0;
+    margin: 20px 0;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -1749,6 +1750,7 @@
   flex-direction: column;
   gap: 20px;
   color: #CCCCCC;
+  justify-content: flex-end;
 }
 
 .footer_botton {

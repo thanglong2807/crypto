@@ -3,7 +3,7 @@
       opacity: 0; /* Độ mờ ban đầu là 0% */
     }
     to {
-      opacity: 1; /* Độ mờ cuối cùng là 100% */
+        opacity: 1;/* Độ mờ cuối cùng là 100% */
     }
   }
   
@@ -92,6 +92,7 @@
     }
     .active_header{
         display: flex;
-        animation: fadeIn .5s ease-in-out ;
+        z-index: 1;
+        animation: fadeIn .1s ease-in-out ;
     }
 }

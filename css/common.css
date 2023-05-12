@@ -19,7 +19,14 @@
   color: #ffffff;
   cursor: pointer;
 }
-
+@keyframes fadeIn {
+  from {
+    opacity: 0; /* Độ mờ ban đầu là 0% */
+  }
+  to {
+      opacity: 1;/* Độ mờ cuối cùng là 100% */
+  }
+}
 .font-small {
   font-weight: 600;
   font-size: 16px;

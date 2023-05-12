@@ -44,9 +44,9 @@ const browse =[
 const newBrwse = browse.map((item)=>{
     return `
     <div class="browse_item">
-    <div class="browse_item-bg" style=" background-image: url('${item.img}')">
+    <a href="./Marketplace.html" class="browse_item-bg" style=" background-image: url('${item.img}')">
         <img   class="browse_item-icon" src="${item.icon}" alt="">
-    </div>
+    </a>
     <span class="browse_name">${item.name}</span>
 </div>
     `
