@@ -1,10 +1,12 @@
 @charset "UTF-8";
 @keyframes fadeIn {
   from {
-    opacity: 0; /* Độ mờ ban đầu là 0% */
+    opacity: 0;
+    /* Độ mờ ban đầu là 0% */
   }
   to {
-    opacity: 1; /* Độ mờ cuối cùng là 100% */
+    opacity: 1;
+    /* Độ mờ cuối cùng là 100% */
   }
 }
 .header-content {
@@ -31,14 +33,24 @@
 .header-list .header-nav .header_link {
   padding: 12px 20px;
 }
-.header-list .header-btn {
+
+.header-btn {
   padding: 20px 30px;
   font-weight: 600;
   font-size: 16px;
   line-height: 140%;
+  min-width: 150px;
 }
 
-@media only screen and (max-width: 857px) {
+@media (max-width: 1200px) {
+  .header-btn {
+    padding: 20px 0px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+  }
+}
+@media (max-width: 857px) {
   .header-content .header_nav {
     display: block;
     cursor: pointer;
@@ -66,13 +78,6 @@
   }
   .header-list .header-nav .header_link {
     padding: 12px 20px;
-  }
-  .header-list .header-btn {
-    padding: 20px 30px;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 140%;
-    margin: 10px auto 0;
   }
   .active_header {
     display: flex;

@@ -104,7 +104,7 @@ const myMap = (arr) => {
         arr.map(item => {
             return `
             <div class="discovermore__item">
-            <a href='' style='display: flex;
+            <a href='./ArtistPage.html' style='display: flex;
             flex-direction: column;'>
                 <img   class="discovermore__item-img" src="images/img/Marketplace/img/${item.image}"  alt=">${item.name}">
                 <div class="discovermore__item-botton">

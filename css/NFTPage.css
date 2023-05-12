@@ -130,3 +130,68 @@
 
   color: #ffffff;
 }
+.orbitians_title {
+  position: relative;
+}
+@media (max-width: 768px) {
+  .background_page{
+    min-height: 300px;
+  }
+  .orbitians-time {
+    position: absolute;
+    top: 70px;
+    width: 100%;
+  }
+  .orbitians_list--btn {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .orbitians_title {
+    font-weight: 600;
+    font-size: 51px;
+    line-height: 110%;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #ffffff;
+    padding: 0 0 290px;
+  }
+  .orbitians-time-btn {
+    background: #a259ff;
+    border-radius: 20px;
+    padding: 19px 80px;
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    width: 100%;
+    color: #ffffff;
+  }
+}
+
+@media(max-width:390px){
+  .background_page{
+    min-height: 150px;
+  }
+  .orbitians-time {
+    position: absolute;
+    top: 120px;
+    width: 100%;
+  }
+  .orbitians-time-btn {
+    background: #a259ff;
+    border-radius: 20px;
+    padding: 19px 0px;
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    width: 100%;
+    color: #ffffff;
+  }
+}
