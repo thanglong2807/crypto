@@ -164,7 +164,7 @@ const rankings=[
 const myMap = (arr)=>{
     const newRankings= arr.map((item,index)=>{
         return `  <a href="ArtistPage.html" class="top_creators-table top_creators-table-body">
-        <h3 class="top_creators-table-item creacted_index i_1">${index +1}</h3>
+        <h3 class="top_creators-table-item  creacted_index i_1">${index +1}</h3>
         <h3 class="top_creators-table-item creacted_info i_2">
             <img   class="creacted_info-avatar" src="./images/icon/${item.avatar} " alt="">
             <span class="creacted_info-name">${item.name}</span>
