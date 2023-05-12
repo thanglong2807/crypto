@@ -164,7 +164,7 @@ const newRankings= rankings.map((item,index)=>{
     return `  <a href="ArtistPage.html" class="top_creators-table top_creators-table-body">
     <h3 class="top_creators-table-item creacted_index i_1">${index +1}</h3>
     <h3 class="top_creators-table-item creacted_info i_2">
-        <img loading="lazy" class="creacted_info-avatar" src="./images/img/Marketplace/icon/7.svg" alt="">
+        <img   class="creacted_info-avatar" src="./images/img/Marketplace/icon/7.svg" alt="">
         <span class="creacted_info-name">${item.name}</span>
     </h3>
     <h3 class="top_creators-table-item created_change i_3">${item.change}</h3>

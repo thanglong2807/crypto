@@ -106,11 +106,11 @@ const myMap = (arr) => {
             <div class="discovermore__item">
             <a href='' style='display: flex;
             flex-direction: column;'>
-                <img loading="lazy" class="discovermore__item-img" src="images/img/Marketplace/img/${item.image}"  alt=">${item.name}">
+                <img   class="discovermore__item-img" src="images/img/Marketplace/img/${item.image}"  alt=">${item.name}">
                 <div class="discovermore__item-botton">
                     <h3 class="discovermore__item-name--img">${item.name}</h3>
                     <div class="discovermore__item-info">
-                        <img loading="lazy" src="images/img/Marketplace/icon/${item.avataUser}" alt="${item.nameUser}" loading="lazy"
+                        <img   src="images/img/Marketplace/icon/${item.avataUser}" alt="${item.nameUser}"  
                             class="discovermore__item-avatar">
                         <h5 class="discovermore__item-name">${item.nameUser}</h5>
                     </div>

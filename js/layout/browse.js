@@ -45,7 +45,7 @@ const newBrwse = browse.map((item)=>{
     return `
     <div class="browse_item">
     <div class="browse_item-bg" style=" background-image: url('${item.img}')">
-        <img loading="lazy" class="browse_item-icon" src="${item.icon}" alt="">
+        <img   class="browse_item-icon" src="${item.icon}" alt="">
     </div>
     <span class="browse_name">${item.name}</span>
 </div>

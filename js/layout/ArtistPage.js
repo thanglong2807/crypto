@@ -61,11 +61,11 @@ const newArtistPage = artistPage.map(item => {
     <div class="discovermore__item">
     <a href='' style='display: flex;
     flex-direction: column;'>
-        <img loading="lazy" class="discovermore__item-img" src="images/img/Image_discover1.png" alt="">
+        <img   class="discovermore__item-img" src="images/img/Image_discover1.png" alt="">
         <div class="discovermore__item-botton">
             <h3 class="discovermore__item-name--img">${item.name}</h3>
             <div class="discovermore__item-info">
-                <img loading="lazy" src="images/img/Avatar_discover1.png" alt=""
+                <img   src="images/img/Avatar_discover1.png" alt=""
                     class="discovermore__item-avatar">
                 <h5 class="discovermore__item-name">Animakid</h5>
             </div>

@@ -37,7 +37,7 @@ $('.footer').html(`
         <div class="footer_top-lists ">
             <h3 class="footer_top-title">
                 <a href="">
-                    <img loading="lazy" src="images/img/Logo.png" alt="">
+                    <img   src="images/img/Logo.png" alt="">
                 </a>
             </h3>
             <ul class="footer_top-list">
@@ -49,16 +49,16 @@ $('.footer').html(`
                 </li>
                 <li class="footer_top-icon">
                     <a href="">
-                        <img loading="lazy" src="./images/icon/DiscordLogo.svg" alt="">
+                        <img   src="./images/icon/DiscordLogo.svg" alt="">
                     </a>
                     <a href="">
-                        <img loading="lazy" src="./images/icon/YoutubeLogo.svg" alt="">
+                        <img   src="./images/icon/YoutubeLogo.svg" alt="">
                     </a>
                     <a href="">
-                        <img loading="lazy" src="./images/icon/TwitterLogo.svg" alt="">
+                        <img   src="./images/icon/TwitterLogo.svg" alt="">
                     </a>
                     <a href="">
-                        <img loading="lazy" src="./images/icon/InstagramLogo.svg" alt="">
+                        <img   src="./images/icon/InstagramLogo.svg" alt="">
                     </a>
 
                 </li>
@@ -95,7 +95,7 @@ $('.footer').html(`
            <form class="digest_form--input footer_forms" action="">
             <input  class="digest_form-input" type="email" placeholder="Enter your email here">
             <button class="digest_form--input-btn btn" >
-                <img loading="lazy" src="./images/icon/EnvelopeSimple.svg" alt="">
+                <img   src="./images/icon/EnvelopeSimple.svg" alt="">
                 Subscribe
             </button>
         </form>
@@ -132,18 +132,18 @@ $(window).resize(function () {
         </p>
         </div>
         <div class="discover-right">
-        <img loading="lazy" src="./images/img/Image Placeholder.png" alt="img">
+        <img   src="./images/img/Image Placeholder.png" alt="img">
         <div class="discover-walking">
             <h3 class="discover-walking-title">Space Walking</h3>
             <div class="discover-walking-info">
-                <img loading="lazy" class="discover-walking-icon" src="images/img/Avatar.png" alt="">
+                <img   class="discover-walking-icon" src="images/img/Avatar.png" alt="">
                 <h4 class="discover-walking-info-title">Animakid</h4>
             </div>
         </div>
         </div>
         <div class="discover-center">
         <button class="discover-btn btn">
-            <img loading="lazy" src="images/icon/RocketLaunch.svg" alt="icon">
+            <img   src="images/icon/RocketLaunch.svg" alt="icon">
             <span>Get Started</span>
         </button>
         <ul class="discover-list">
@@ -172,7 +172,7 @@ $(window).resize(function () {
            NFT marketplace UI created with Anima for Figma. Collect, buy and sell art from more than 20k NFT artists.
        </p>
        <button class="discover-btn btn">
-           <img loading="lazy" src="images/icon/RocketLaunch.svg" alt="icon">
+           <img   src="images/icon/RocketLaunch.svg" alt="icon">
            <span>Get Started</span>
        </button>
        <ul class="discover-list">
@@ -191,11 +191,11 @@ $(window).resize(function () {
        </ul>
    </div>
    <div class="discover-right">
-       <img loading="lazy" src="./images/img/Image Placeholder.png" alt="img">
+       <img   src="./images/img/Image Placeholder.png" alt="img">
        <div class="discover-walking">
            <h3 class="discover-walking-title">Space Walking</h3>
            <div class="discover-walking-info">
-               <img loading="lazy" class="discover-walking-icon" src="images/img/Avatar.png" alt="">
+               <img   class="discover-walking-icon" src="images/img/Avatar.png" alt="">
                <h4 class="discover-walking-info-title">Animakid</h4>
            </div>
        </div>
