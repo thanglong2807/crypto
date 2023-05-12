@@ -263,7 +263,7 @@
     align-items: center;
     gap: 0;
     position: relative;
-    padding-bottom: 110px;
+    padding-bottom: 40px;
   }
   .discover_item {
     position: absolute;
@@ -455,7 +455,7 @@
   color: #FFFFFF;
 }
 
-@media (max-width: 1200px) and (min-width: 834px) {
+@media (max-width: 1200px) {
   .trending {
     padding: 40px 0;
   }
@@ -540,7 +540,7 @@
     color: #FFFFFF;
   }
 }
-@media (max-width: 834px) {
+@media (max-width: 570px) {
   .trending {
     padding: 40px 0;
   }
@@ -1014,6 +1014,7 @@
 .discovermore {
   padding: 80px 0;
 }
+
 .discovermore__title {
   font-style: normal;
   font-weight: 600;
@@ -1191,6 +1192,9 @@
     padding: 40px 0 150px;
     position: relative;
   }
+  .discovermore-content {
+    position: relative;
+  }
   .discovermore__title {
     font-weight: 600;
     font-size: 28px;
@@ -1204,7 +1208,9 @@
   }
   .discovermore__des .discovermore__btn {
     bottom: 40px;
-    transform: translate(-50%, 0);
+    transform: translate(0, 0);
+    bottom: -90px;
+    width: 100%;
   }
   .discovermore__list {
     display: flex;
