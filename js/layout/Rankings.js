@@ -174,7 +174,7 @@ const myMap = (arr)=>{
         <h3 class="top_creators-table-item created_sold i_5">${item.volume}</h3>
     </a>`
     })
-    
+    console.log(rankings);
    return  $('.top_creators-table-item-list').html(newRankings)
 }
 
