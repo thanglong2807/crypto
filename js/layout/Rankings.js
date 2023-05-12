@@ -1,7 +1,7 @@
 const rankings=[
     {
         id: 1,
-        avatar:'NFT1.svg',
+        avatar:'NFT_1.svg',
         name:'Marcus Saris',
         change:'+1.41%',
         sold:'602',
@@ -9,7 +9,7 @@ const rankings=[
     },
     {
         id: 2,
-        avatar:'NFT2.svg',
+        avatar:'NFT_2.svg',
         name:'Ruben Carder',
         change:'+1.41%',
         sold:'602',
@@ -17,7 +17,7 @@ const rankings=[
     },
     {
         id: 3,
-        avatar:'NFT3.svg',
+        avatar:'NFT_3.svg',
         name:'Alfredo Septimus',
         change:'+1.41%',
         sold:'602',
@@ -25,7 +25,7 @@ const rankings=[
     },
     {
         id: 4,
-        avatar:'NFT4.svg',
+        avatar:'NFT_4.svg',
         name:'Davis Franci',
         change:'+1.41%',
         sold:'602',
@@ -33,7 +33,7 @@ const rankings=[
     },
     {
         id: 5,
-        avatar:'NFT5.svg',
+        avatar:'NFT_5.svg',
         name:'Livia Rosser',
         change:'+1.41%',
         sold:'602',
@@ -41,7 +41,7 @@ const rankings=[
     },
     {
         id: 6,
-        avatar:'NFT6.svg',
+        avatar:'NFT_6.svg',
         name:'Kianna Donin',
         change:'+1.41%',
         sold:'602',
@@ -49,7 +49,7 @@ const rankings=[
     },
     {
         id: 7,
-        avatar:'NFT7.svg',
+        avatar:'NFT_7.svg',
         name:'Phillip Lipshutz',
         change:'+1.41%',
         sold:'602',
@@ -57,7 +57,7 @@ const rankings=[
     },
     {
         id: 8,
-        avatar:'NFT8.svg',
+        avatar:'NFT_8.svg',
         name:'Maria Rosser',
         change:'+1.41%',
         sold:'602',
@@ -65,7 +65,7 @@ const rankings=[
     },
     {
         id: 9,
-        avatar:'NFT9.svg',
+        avatar:'NFT_9.svg',
         name:'Kianna Stanton',
         change:'+1.41%',
         sold:'602',
