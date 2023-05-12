@@ -41,7 +41,7 @@
     /* or 22px */
     cursor: pointer;
     text-align: center;
-
+    width: 198px;
     /* Background */
     margin-top: 30px;
     color: #2B2B2B;
@@ -81,7 +81,7 @@
     justify-content: space-between;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 650px) {
     .mashrooms {
 
         .mashrooms-bg {

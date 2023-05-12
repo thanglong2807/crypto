@@ -39,7 +39,7 @@
         font-size: 16px;
         line-height: 140%;
         /* or 22px */
-
+        width: 269px;
         text-align: center;
     }
 
@@ -235,7 +235,15 @@
             @include medium-text-mobile;
 
         }
-
+        .discover-btn {
+            padding: 19px 50px;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 140%;
+            /* or 22px */
+            width: 100%;
+            text-align: center;
+        }
 
     }
 

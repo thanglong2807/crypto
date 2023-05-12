@@ -37,7 +37,10 @@ $(document).ready(function () {
         const userEmail = $('#userEmail').val();
         const userPassword = $('#userPassword').val();
         const checkPassword = $('#checkPassword').val();
-    
+        if(!userName || !userEmail || !userPassword || !checkPassword){
+            alert('Enter enough information')
+            return
+        }
         // Validate the form
         if (userPassword !== checkPassword) {
             alert("Passwords must match");
@@ -66,7 +69,7 @@ $(document).ready(function () {
         $('#userPassword').val('')
         $('#checkPassword').val('')
     };
-    
+   
     const usersJSON = localStorage.getItem('users');
     if (usersJSON) {
         const users = JSON.parse(usersJSON);
@@ -74,7 +77,7 @@ $(document).ready(function () {
     }
     
     $('#handleSubmit').on('submit', handleSubmit);
-    
+ 
     // 
     $('.creacted-handle-btn').on('click', function (e) {
         $('.creacted-handle-btn').removeClass('creacted-handle-btn-active');

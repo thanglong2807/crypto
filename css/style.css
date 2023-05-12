@@ -120,6 +120,7 @@
   font-size: 16px;
   line-height: 140%;
   /* or 22px */
+  width: 269px;
   text-align: center;
 }
 .discover-left .discover-list {
@@ -290,6 +291,15 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 140%;
+  }
+  .discover-left .discover-btn {
+    padding: 19px 50px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    width: 100%;
+    text-align: center;
   }
   .discover-center {
     display: flex;
@@ -1321,6 +1331,7 @@
   /* or 22px */
   cursor: pointer;
   text-align: center;
+  width: 198px;
   /* Background */
   margin-top: 30px;
   color: #2B2B2B;
@@ -1367,7 +1378,7 @@
   justify-content: space-between;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 650px) {
   .mashrooms .mashrooms-bg {
     padding: 200px 0 130px;
     position: relative;
