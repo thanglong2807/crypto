@@ -1435,7 +1435,9 @@
   border-radius: 20px;
   display: flex;
   flex-direction: column;
+  min-height: 334px;
   align-items: center;
+  justify-content: flex-end;
 }
 
 .works_item-icon {
