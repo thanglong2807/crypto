@@ -176,6 +176,10 @@ padding: 5px 10px;
 .discovermore__list{
     flex-wrap: wrap;
 }
+.discovermore__item-img {
+  width: 100%;
+  height: 390px;
+}
 /*  */
 @media (max-width: 834px) {
   .info {
